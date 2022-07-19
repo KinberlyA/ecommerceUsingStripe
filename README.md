@@ -6,7 +6,7 @@ NGROK_URL=https://0747-70-121-140-100.ngrok.io
 STRIPE_PRIVATE_KEY= ... 
 
 AFTER CREATING .ENV: 
-npm install
-cd server
-npm start
-npm run devStart
+npm install,
+cd server,
+npm start,
+npm run devStart,
