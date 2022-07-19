@@ -1,0 +1,393 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="menu-img flex flex-row">
+      <div class="menu-heading">
+        <h1>Menu</h1>
+      </div>
+      <div class="menu-cart flex">
+        <img
+          class="cart-icon checkout-btn"
+          src="imgs/icons8-shopping-trolley-64.png"
+          alt=""
+        />
+      </div>
+      <!-- <button>Checkout</button> -->
+    </div>
+    <main class="menu-main grid container">
+      <div class="sidebar-grid flex flex-col">
+        <ul class="sidebar flex flex-col">
+          <a class="nav__link sidebar-li" href="#popular">Popular</a>
+          <a class="nav__link sidebar-li" href="#breakfast">Breakfast</a>
+          <a class="nav__link sidebar-li" href="#biggie"
+            >Biggie Biscuit Sandwiches</a
+          >
+          <a class="nav__link sidebar-li" href="#burger">Burgers</a>
+          <a class="nav__link sidebar-li" href="#sandwich">Sandwiches</a>
+          <a class="nav__link sidebar-li" href="#soup">Soup and Salad</a>
+          <a class="nav__link sidebar-li" href="#plate">Plates</a>
+          <a class="nav__link sidebar-li" href="#child">Childrens menu</a>
+          <a class="nav__link sidebar-li" href="#side">Sides</a>
+          <a class="nav__link sidebar-li" href="#drink">Drinks</a>
+        </ul>
+      </div>
+      <div class="menu-all-grid flex flex-col">
+        <div>
+          <div id="popular">
+            <h3 class="menu-kind-heading observe-popular">Popular</h3>
+          </div>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="1">
+              Fried Green Tomatoes and Dipping Sauce
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $6.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="2">
+              Scrambled Eggrolls Stuffed with Egg
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="3">
+              Croissant Sandwich with Fried Egg, Cheese, and Avocado
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="4">
+              Croissant Sandwich with Fried Egg, Cheese, and Choice of Meat
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="8">
+              Breakfast Burrito
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="breakfast">Breakfast</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="2">
+              Scrambled Eggrolls Stuffed with Egg
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="3">
+              Croissant Sandwich with Fried Egg, Cheese, and Avocado
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="4">
+              Croissant Sandwich with Fried Egg, Cheese, and Choice of Meat
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="8">
+              Breakfast Burrito
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="9">
+              French Toast with Peanut Buttercream and Jam
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="10">
+              French Toast Made with Orange Cranberry Bread
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="biggie">
+            Biggie Biscuit Sandwiches
+          </h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="12">
+              Biscuit with Fried Egg and Cheese
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="11">
+              Biscuit Benedict with Ham
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="14">
+              Biscuit with Chicken Fried Steak
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="15">
+              Biscuit with Chicken Fried Chicken
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="13">
+              Biscuit with Pulled Pork
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="burger">Burgers</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="16">
+              Grilled Hamburger
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $6.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="17">
+              Grilled Cheeseburger
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $6.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="18">
+              Cheddar, Bacon, and Egg Burger
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="19">
+              Bacon and Cheddar Burger
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="20">
+              Patty Melt
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $8.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="21">
+              Mushroom Swiss Burger
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="22">
+              Jalapeno Jack and Homemade Pickled Jalapeno Burger
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="sandwich">Sandwiches</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="23">
+              Pulled Pork Sandwich with BBQ, Pickles, and Onions
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $7.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="24">
+              Grilled Cheese with Tomato and Avocado
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $7.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="25">
+              Grilled Chicken Sandwich with Cheese
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $7.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="22">
+              Fried Green Tomato, Spinach, and Bacon with Sauce Sandwich
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $7.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="soup">Soup and Salad</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="49">
+              Soup of the day
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $4.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="27">
+              Cobb Salad
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="28">
+              Southwest Salad
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="29">
+              Strawberry Fields Salad
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="30">
+              Mandarin Salad
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $9.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="plate">Plates</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="31">
+              Chicken Fried Steak
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $11.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="32">
+              Chicken Fried Chicken
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $11.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="33">
+              Grilled Chicken Breast
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $11.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="child">Childrens Menu</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="34">
+              Scrambled Egg with Biscuit and Bacon
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $5.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="35">
+              Chicken Tenders and Side
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $5.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="36">
+              Grilled Cheese and Side
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $5.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="37">
+              Peanut Butter and Jam with Side
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $5.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="side">Sides</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="38">
+              Hand Battered Onion Rings
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $3.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="39">
+              French Fries
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $3.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="40">
+              Sweet Potato Fries
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $3.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="42">
+              Fried Pickles with Dipping Sauce
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $6.99
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="43">
+              Cheese Bites
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $7.99
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="menu-kind-heading" id="drink">Drinks</h3>
+          <ul class="menu-items-grid grid grid-col-2">
+            <li class="flex flex-row" data-quantity="0" data-set="44">
+              Bottled Water
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $1.25
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="45">
+              Canned Soft Drinks
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $1.25
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="46">
+              Bottled Soft Drinks
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $2.25
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="47">
+              Coffee / Tea / Lemonade
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $2.25
+              </button>
+            </li>
+            <li class="flex flex-row" data-quantity="0" data-set="48">
+              Juice
+              <button class="btn menu-btn" class="add-to-cart-btn">
+                $2.25
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
